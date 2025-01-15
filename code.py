@@ -2,7 +2,7 @@ import pandas as pd
 from check_data_consistency import DataConsistencyChecker
 
 
-df = pd.read_csv("your_dataset.csv")
+df = pd.read_csv("~/Breast_Cancer_Global_Dataset.csv")
 
 
 dc = DataConsistencyChecker()
